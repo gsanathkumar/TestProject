@@ -36,6 +36,7 @@ public class TestWatcher {
 			if(!valid) {
 				break;
 			}
+			System.out.println("modified TestWatcher to test the pull");
 		}
 	}
 }
