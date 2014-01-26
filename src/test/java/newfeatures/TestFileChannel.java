@@ -12,5 +12,6 @@ public class TestFileChannel {
 		FileOutputStream fos = new FileOutputStream("C:\\Users\\MANOJ\\Desktop\\TestFolder\\sample.txt");
 		FileChannel ifc = fis.getChannel();
 		FileChannel ofc = fos.getChannel();
+		System.out.println("test pull print");
 	}
 }
